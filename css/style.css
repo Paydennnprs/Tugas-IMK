@@ -1,0 +1,526 @@
+
+/* navbar */
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: blanchedalmond;
+}
+
+.navbar {
+    z-index: 2;
+    background-color: #BB533A;
+}
+
+*{
+    z-index: 2;
+}
+
+.nav-color{
+    transition: all 1s ease-in;
+    background: linear-gradient(160deg, #BB533A , #55261A);
+    
+}
+
+.bg-transparent{
+    transition: all 1s ease-out;
+}
+
+.nav-link.active{
+    font-weight: 700;
+}
+
+.nav-link{
+    font-size: 16px;
+}
+
+.navbar-brand{
+    margin-top: 20px;
+}
+
+.button-secondary{
+    width: 133px;
+    height: 40px;
+    background-color: #fff;
+    color: #BB533A;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.button-primary{
+    width: 133px;
+    height: 40px;
+    background-color:   transparent;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+/* isi / hero section */
+
+#hero{
+    background: linear-gradient(160deg, #BB533A , #55261A);
+    height: 100vh;
+    width: 100%;
+}
+
+.img-hero{
+    margin-top: 40px;
+    z-index: 1;
+}
+
+.hero-tagline h1{
+    color: #fff;
+    font-weight: 700;
+    margin-top: 60px;
+    font-size: 49px;
+    line-height: 70px;
+}
+
+
+.hero-tagline p{
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    line-height: 30px;
+    width: 70%;
+}
+
+.button-lg-primary{
+    width: 237px;
+    height: 50px;
+    background-color: #fff;
+    color: #BB533A;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+/* LAYANAN KAMI */
+
+#layanan{
+    padding: 100px 0;
+}
+
+h2{
+    font-size: 48px;
+   font-weight: 600;
+   color: #BB533A; 
+}
+
+.sub-title{
+    font-size: 18px;
+    color: #000;
+   
+}
+
+
+.card-layanan{
+    width: 100%;
+    height: 313px;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+
+    transition: all .2s ease-in;
+}
+
+.circle-icon{
+    width: 70px;
+    height: 60px;
+    border-radius: 40%;
+
+    transition: all .1s ease-in;
+
+}
+
+.card-layanan h3{
+    
+    color: #BB533A;
+    font-size: 29px;
+    font-weight: 700;
+
+    transition: all .2s ease-in;
+}
+
+.card-layanan p{
+    color: #000;
+    font-size: 17px;
+
+    transition: all .2s ease-in;
+}
+
+/* hover */
+.card-layanan:hover{
+    width: 100%;
+    height: 313px;
+    border-radius: 5px;
+    background: linear-gradient(160deg, #55261A , #BB533A);
+    padding: 40px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+
+    transition: all .2s ease-in;
+}
+
+.circle-icon:hover{
+    width: 70px;
+    height: 60px;
+    border-radius: 40%;
+
+    transition: all .2s ease-in;
+}
+
+.card-layanan:hover h3{
+    color: #fff;
+    font-size: 29px;
+
+    transition: all .2s ease-in;
+}
+
+.card-layanan:hover p{
+    color: #fff;
+    font-size: 17px;
+
+    transition: all .2s ease-in;
+}
+
+/* search section */
+
+#search {
+    background-image: url(../assets/bg\ fix.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+#search h2{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+}
+
+#search p{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+}
+
+.input-cari{
+    height: 88px;
+}
+
+.input-cari:focus{
+    border: none;
+}
+
+.input-cari .button-secondary{
+    width: 200px;
+    height: 88px;
+    background-size: rgba(255,255,255,0.8) ;
+    color: #000;
+    font-size: 17px;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+}
+
+.input-cari .button-primary{
+    height: 88px;
+    background-color: #BB533A;
+    color: #fff;
+    border: none;
+    font-size: 29px;
+    font-weight: 500;
+    border-radius: 0 10px 0 10px;
+}
+
+#contact{
+    background-image: url(../assets/contact\ us.jpg);
+    margin-top: 158px;
+    padding: 148px 0 148px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contact h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    color: #fff;
+}
+
+#contact h6{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
+    margin: 19px 0 14px 0;
+}
+
+.kontak a{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 18px;
+    width: 332px;
+    display: inline-block;
+}
+
+.linkblink{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.card-contact{
+    width: 100%;
+    height: 445px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 52px 48px; 
+}
+
+.card-contact h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 60px;
+    color: #BB533A;
+    text-align: center;
+    margin-bottom: 21px;
+}
+
+.form-control{
+    background: #c4c4c4;
+    height: 88px !important ; 
+    border-radius: 0;   
+}
+
+.form-floating label{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #717171;
+}
+
+.button-kontak{
+    width: 100%;
+    height: 75px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #fff;
+
+    border: none;
+    background: #BB533A;
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(160deg, #BB533A , #55261A);
+}
+
+.copyright{
+    bottom: 10%;
+
+    color: #fff;
+
+}
+
+footer a{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 100px;
+
+    text-decoration: none;
+    color: #fff;
+}
+
+.copyright{
+    bottom: 1%;
+
+    color: #fff;
+
+}
+
+/* tentang section */
+.about {
+  padding: 80px 5%;
+  color: #3d2152;
+  line-height: 1.8;
+}
+
+.about h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.about-container {
+  font-size: 20px;
+  text-align: justify;
+}
+
+.about-container p {
+  margin-bottom: 6px;
+  margin: 15px 0;
+}
+
+.card{
+    border: none;
+}
+
+.card-body h4{
+     color: #000;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: .8rem;
+}
+
+.card:hover{
+    background: linear-gradient(160deg, #BB533A , #55261A);
+     box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+    transition: all ease-in-out .3s;
+}
+
+.card:hover .card-body h4{
+    color: #fff;
+    transition: all ease-in-out .2s;
+
+}
+
+.card:hover .card-body p{
+    color: #fff;
+    transition: all ease-in-out .2s;
+}
+
+.card-fasilitas{
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 10px;
+    background-color: #fff;
+}
+
+.card-fasilitas span{
+    font-weight: 500;
+    margin-top: 18px;
+    color: #000;
+}
+
+.card-fasilitas p{
+    font-size: 12px;
+    color: #000;
+}
+
+.sub-title2{
+    font-size: 18px;
+    color: #000;
+}
+
+.mottir h2{
+     font-size: 48px;
+   font-weight: 600;
+   color: #BB533A; 
+}
+
+.login{
+
+    height: 100vh;
+
+}
+
+.header h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+
+    color: #fff;
+
+}
+
+.header p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.login-form label{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #fff;
+    margin-top: 20px;
+}
+
+.login-form input{
+    background: #ffffff;
+    border: 1px solid #bcbcbc;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.login-form a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin: 20px 0;
+    display: block;
+    color: #fff;
+}
+
+.login-form .singin{
+    width: 100%;
+    height: 42px;
+
+    color: #fff;
+   background: linear-gradient(160deg, #BB533A , #55261A);
+    border-radius: 8px;
+}
+
+.login-form span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #fff;
+}
+
+.login-form span a{
+    font-weight: 600;
+
+}
